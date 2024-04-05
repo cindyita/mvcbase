@@ -1,12 +1,9 @@
-
-/* .main {
-    padding:20px;
-} */
+/*----------GENERAL----------*/
+.main {
+  padding:0;
+}
 
 /*----------MESSAGES----------*/
-.message {
-  color:grey;
-}
 .message.error {
   color:red;
 }
