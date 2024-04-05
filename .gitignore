@@ -2,7 +2,8 @@
 /node_modules/
 logs/
 log/
-/cache/
+cache/
+temp/
 /sessions/
 composer.lock
 package-lock.json
