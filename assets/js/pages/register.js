@@ -105,6 +105,6 @@ function checkCPass() {
 }
 
 function checkPattern(str) {
-    var re = /^(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
-    return re.test(str);
+    var reg = /^(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+    return reg.test(str);
 }

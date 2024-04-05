@@ -16,7 +16,7 @@ if (!empty(getView())) {
 function getHome() {
     $data = getPostData();
     $db = new QueryModel();
-    if (!empty($data) && count($data)>0 && !empty($data['id'])) {
+    if (!empty($data['id'] ?? null)) {
         $row = $db->query("SELECT * FROM users WHERE id=:id",[":id"=>$data['id']]);
         $response = json_encode($row);
     } else {
