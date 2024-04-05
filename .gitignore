@@ -1,0 +1,17 @@
+/vendor/
+/node_modules/
+/logs/
+/cache/
+/sessions/
+composer.lock
+package-lock.json
+.env
+*.bak
+*.tmp
+.env.local
+.env.*.local
+.idea/
+.vscode/
+/assets/docs/
+/assets/img/user/
+
