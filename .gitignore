@@ -1,6 +1,7 @@
 /vendor/
 /node_modules/
-/logs/
+logs/
+log/
 /cache/
 /sessions/
 composer.lock
